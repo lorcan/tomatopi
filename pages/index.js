@@ -1,25 +1,14 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Layout from '../components/layout.js'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Raspberry Pi</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Layout>
+      <strong>Work in progress...</strong>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Raspberry Pi!</h1>
-
-        <button onClick={() => fetch(`/api/photo`)}>Take photo</button>
-        <img src="/photos/snap.jpg" height="400" alt="Last Image"></img>
-      </main>
-
-      <footer className={styles.footer}>
-        <Link href="/pijuice">PiJuice</Link>
-      </footer>
-    </div>
+      <p>
+        There's some simple pages here, links in the footer to interact with the
+        camera and the pijuice modules.
+      </p>
+    </Layout>
   )
 }
