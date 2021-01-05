@@ -32,3 +32,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# python
+/scripts/__pycache__
+
+# User generated content
+/public/photos
