@@ -14,6 +14,7 @@ export default function Home() {
         <h1 className={styles.title}>Raspberry Pi!</h1>
 
         <button onClick={() => fetch(`/api/photo`)}>Take photo</button>
+        <img src="/photos/snap.jpg" height="400" alt="Last Image"></img>
       </main>
 
       <footer className={styles.footer}>

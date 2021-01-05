@@ -35,3 +35,6 @@ yarn-error.log*
 
 # python
 /scripts/__pycache__
+
+# User generated content
+/public/photos
