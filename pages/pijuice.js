@@ -7,12 +7,14 @@ export default function PiJuice(props) {
       <h1 className={styles.title}>Pi Juice</h1>
       <table>
         <thead>
-          <th>Key</th>
-          <th>Value</th>
+          <tr>
+            <th>Key</th>
+            <th>Value</th>
+          </tr>
         </thead>
         <tbody>
           {Object.keys(props.data).map((key) => (
-            <tr>
+            <tr key={key}>
               <td>
                 <strong>{key}</strong>
               </td>
