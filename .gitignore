@@ -39,3 +39,4 @@ yarn-error.log*
 # User generated content
 /public/photos
 /photos
+/tmp
