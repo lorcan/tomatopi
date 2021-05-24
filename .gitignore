@@ -40,3 +40,4 @@ yarn-error.log*
 /public/photos
 /photos
 /tmp
+/log
